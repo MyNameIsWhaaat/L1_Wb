@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	
+
 	def := runtime.NumCPU()
 	n := flag.Int("workers", def, "number of workers")
 	flag.Parse()
